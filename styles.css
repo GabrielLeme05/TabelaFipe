@@ -1,0 +1,92 @@
+/* Preço de Veículo - https://precodeveiculo.netlify.app */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: 1rem;
+  background-color: #f5f5f5; /* cor de fundo */
+}
+
+h1 {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  color: #333; /* cor do texto */
+}
+
+h4 {
+  margin: 0 0 0.5rem 0;
+  color: #666; /* cor do subtítulo */
+}
+
+p {
+  margin: 0 0 1rem 0;
+  color: #333; /* cor do texto */
+}
+
+select,
+button {
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff; /* cor do fundo do botão e do select */
+  color: #333; /* cor do texto do botão e do select */
+  cursor: pointer;
+}
+
+button {
+  background-color: #007bff; /* cor de fundo do botão */
+  color: #fff; /* cor do texto do botão */
+  transition: background-color 0.3s ease; /* transição de cor suave */
+}
+
+button:hover {
+  background-color: #0056b3; /* cor de fundo do botão quando hover */
+}
+
+table {
+  border: 1px solid #ccc; /* cor da borda da tabela */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table tr th,
+table tr td {
+  padding: 1rem;
+  border: 1px solid #ccc; /* cor da borda das células */
+}
+
+table tr th:first-child,
+table tr td:first-child {
+  background-color: #f5f5f5; /* cor de fundo do cabeçalho e primeira coluna */
+  font-weight: bold;
+  text-align: left; /* alinhamento do texto na primeira coluna */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+@media (min-width: 599px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .container div {
+    text-align: left;
+    width: 48%;
+  }
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  background-image: url('data:image/svg+xml;utf8,<svg id="Bold" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"/></svg>');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  height: 1rem;
+}
