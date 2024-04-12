@@ -9,7 +9,7 @@ body {
 h1 {
   margin: 0 0 1rem 0;
   text-align: center;
-  color: #333; /* cor do texto */
+  color: #000000; /* cor do texto */
 }
 
 h4 {
@@ -36,13 +36,13 @@ button {
 }
 
 button {
-  background-color: #007bff; /* cor de fundo do botão */
+  background-color: #fa0606; /* cor de fundo do botão */
   color: #fff; /* cor do texto do botão */
   transition: background-color 0.3s ease; /* transição de cor suave */
 }
 
 button:hover {
-  background-color: #0056b3; /* cor de fundo do botão quando hover */
+  background-color: #b30000; /* cor de fundo do botão quando hover */
 }
 
 table {
